@@ -1,0 +1,41 @@
+:root {
+  --tank-rgb: 67, 88, 194;
+  --healer-rgb: 72, 122, 57;
+  --damage-rgb: 129, 59, 60;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.5em
+}
+
+
+
+
+
+
+
+
+
+
+
+.tank {
+    color: rgb(var(--tank-rgb))
+}
+
+.healer {
+    color: rgb(var(--healer-rgb));
+}
+
+.damage {
+    color: rgb(var(--damage-rgb));
+}
+

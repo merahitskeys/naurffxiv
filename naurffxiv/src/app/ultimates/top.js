@@ -23,7 +23,7 @@ export default function TOP(props) {
                 <h3>Phase 2: Omega M & Omega F - Dylan</h3>
                 <ul>
                     <li><a href="" target="_blank">Toolbox</a></li>
-                    <li>Pre-position: M side: MT H1 M1 R1 | F side: OT H2 M2 R2</li>
+                    <li>Pre-position: M side: <span className="tank">MT</span> <span className="healer">H1</span> <span className="damage">M1</span> <span className="damage">R1</span> | F side: <span className="tank">OT</span> H2 M2 R2</li>
                     <li>Mid Glitch positions: <pre>{`X | X
 □ | □
 O | O
