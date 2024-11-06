@@ -17,15 +17,43 @@ h3 {
     font-size: 1.5em
 }
 
+a {
+    color: aqua;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: darkcyan;
+}
+
+ul {
+    text-indent: 3em;
+    list-style: circle;
+    list-style-position: inside;
+}
+
+ul.sublist {
+    text-indent: 5em;
+    list-style: inside disc;
+}
+
+code {
+    width: 80%;
+    border: 0em white;
+}
 
 
 
 
 
 
-
-
-
+.warn {
+    font-style: italic;
+    font-size: .9em;
+}
 
 .tank {
     color: rgb(var(--tank-rgb))

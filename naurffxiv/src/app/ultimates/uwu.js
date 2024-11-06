@@ -20,7 +20,7 @@ export default function UWU() {
                     <li><a href="https://ff14.toolboxgaming.space/?id=562530446784261&preview=1" target="_blank">Ifrit Toolbox</a></li>
                 </ul>
                 <h3>Phase 3: Titan</h3>
-                <p>
+                <p className="warn">
                     Party Finder groups in North America and Europe expect the use of an "automarker" ("AM", "Allagan Melon")
                     third-party tool to simplify the Titan Gaols mechanic. There are Terms-of-Service-friendly ways to
                     resolve this mechanic (e.g., self-marking macros), although such use is extremely rare in Party Finder
@@ -39,7 +39,9 @@ export default function UWU() {
                     <li><a href="https://ff14.toolboxgaming.space/?id=930637786646261&preview=1" target="_blank">Annihilation Toolbox</a></li>
                     <li>
                         <a href="https://ff14.toolboxgaming.space/?id=830635036646261&preview=1" target="_blank">Suppression Toolbox</a>
-                        <p>Tanks left, party right for Aetheric Booms.</p>
+                        <ul className="sublist">
+                            <li>Tanks left, party right for Aetheric Booms.</li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -56,11 +58,8 @@ export default function UWU() {
                     <li><a href="https://docs.google.com/spreadsheets/d/13dpeUEBHFpLxX38gjC8oh1xEB4F7xBECI9BvycJEsfk/edit#gid=831820397" target="_blank">Titan Gaols Cheat Sheet</a></li>
                 </ul>
                 <h3>Markers</h3>
-                <ul>
-                    <li>
-                        <code lang="json">{ `{"Name":"UWU","MapID":539,"A":{"X":100.0,"Y":0.0,"Z":93.3,"ID":0,"Active":true},"B":{"X":106.7,"Y":0.0,"Z":100.0,"ID":1,"Active":true},"C":{"X":100.0,"Y":0.0,"Z":106.7,"ID":2,"Active":true},"D":{"X":93.3,"Y":0.0,"Z":100.0,"ID":3,"Active":true},"One":{"X":107.3,"Y":0.0,"Z":107.3,"ID":4,"Active":true},"Two":{"X":100.0,"Y":0.0,"Z":81.0,"ID":5,"Active":true},"Three":{"X":100.0,"Y":0.0,"Z":100.0,"ID":6,"Active":true},"Four":{"X":87.0,"Y":0.0,"Z":87.0,"ID":7,"Active":true}}` }</code>
-                    </li>
-                </ul>
+                    <p>Exact markers can be imported using "Waymark Preset Plugin" by copying the below JSON information.</p>
+                    <code lang="json">{ `{"Name":"UWU","MapID":539,"A":{"X":100.0,"Y":0.0,"Z":93.3,"ID":0,"Active":true},"B":{"X":106.7,"Y":0.0,"Z":100.0,"ID":1,"Active":true},"C":{"X":100.0,"Y":0.0,"Z":106.7,"ID":2,"Active":true},"D":{"X":93.3,"Y":0.0,"Z":100.0,"ID":3,"Active":true},"One":{"X":107.3,"Y":0.0,"Z":107.3,"ID":4,"Active":true},"Two":{"X":100.0,"Y":0.0,"Z":81.0,"ID":5,"Active":true},"Three":{"X":100.0,"Y":0.0,"Z":100.0,"ID":6,"Active":true},"Four":{"X":87.0,"Y":0.0,"Z":87.0,"ID":7,"Active":true}}` }</code>
             </div>
 
             <div className="visual-guides">
