@@ -1,0 +1,22 @@
+.fight-refbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fight-tab {
+    padding: .5rem .8rem;
+    border-radius: 5px;
+}
+
+.fight-tab:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.fight-tab.active {
+    border: 1px solid white;
+}
